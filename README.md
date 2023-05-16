@@ -1,5 +1,5 @@
 # reto-10
-##1. Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
+## 1. Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
 ```pseudocode
 def calcularPromedio(arreglo):
     if len(arreglo) == 0: # Verificar si el arreglo está vacío
@@ -12,7 +12,7 @@ arreglo = [2.5, 3.7, 1.8, 4.2, 2.1]
 promedio = calcularPromedio(arreglo)
 print("El promedio del arreglo es:" +str(promedio))
 ```
-##2.Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
+## 2.Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
 ```pseudocode
 def calcularProductoPunto(arreglo1, arreglo2):
     if len(arreglo1) != len(arreglo2): # Verificar si los arreglos tienen la misma longitud
@@ -27,7 +27,7 @@ arreglo2 = [4, 5, 6]
 resultado = calcularProductoPunto(arreglo1, arreglo2) #llamar función del producto punto
 print("El producto punto de los arreglos es:"+str(resultado))
 ```
-3.Hacer un algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
+## 3.Hacer un algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
 ```pseudocode
 def moverCeros(arreglo):
     ceros = []  # Crear una lista para almacenar los ceros
